@@ -1,0 +1,25 @@
+body {
+    background-color: blanchedalmond;
+}
+
+#content {
+    /*display: flex;*/
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.top-image {
+    margin: 25px;
+    height: 300px;
+    width: 500px;
+}
+
+.landing-page-copy {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
