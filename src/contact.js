@@ -1,3 +1,7 @@
+import phoneImage1 from './assets/phone.jpg';
+import emailImage from './assets/email.jpg';
+import mailImage from './assets/address1.jpg';
+
 export function contact() {
     
     const contentDiv = document.querySelector("#content");
@@ -14,20 +18,20 @@ export function contact() {
     // DOM for phoneImage
     const phoneImage = document.createElement("img");
     phoneImage.classList.add("image-contact");
-    phoneImage.src = "../src/assets/phone.jpg";
+    phoneImage.src = phoneImage1;
     phoneImage.alt = "Image of phone";
     contentDiv.appendChild(phoneImage);
 
     // DOM for p tag for phoneImage
-    const para1phoneImage = document.createElement("p");
-    para1phoneImage.classList.add("menu-copy");
-    para1phoneImage.textContent = "Call us!";
-    contentDiv.appendChild(para1phoneImage);
+    const para1PhoneImage = document.createElement("p");
+    para1PhoneImage.classList.add("menu-copy");
+    para1PhoneImage.textContent = "Call us!";
+    contentDiv.appendChild(para1PhoneImage);
 
     // DOM for emailImage
     const email = document.createElement("img")
     email.classList.add("image-contact");
-    email.src = "../src/assets/email.jpg";
+    email.src = emailImage;
     email.alt = "Image of email";
     contentDiv.appendChild(email);
 
@@ -40,7 +44,7 @@ export function contact() {
     // DOM for addressImage
     const topImage = document.createElement("img");
     topImage.classList.add("image-contact");
-    topImage.src = "../src/assets/address1.jpg";
+    topImage.src = mailImage;
     topImage.alt = "Image of mailing address";
     contentDiv.appendChild(topImage);
 
