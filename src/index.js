@@ -1,12 +1,13 @@
 import { initialPageLoad } from './initial-page-load.js';
 import { menu } from './menu.js';
 import { contact } from './contact.js'; 
+import './style.css';
 
 
 initialPageLoad();
 
 // Tab switching module
-let tabSwitchModule = (function() {
+let tabSwitchingModule = (function() {
     
     const homeTab = document.querySelector(".home");
     homeTab.addEventListener("click", initialPageLoad);

@@ -1,3 +1,6 @@
+import italianPastaImage from './assets/pasta2.jpg';
+import chickenParmImage from './assets/chicken-parm.jpg';
+
 export function menu() {
     
     const contentDiv = document.querySelector("#content");
@@ -14,7 +17,7 @@ export function menu() {
     // DOM for italianPasta
     const italianPasta = document.createElement("img");
     italianPasta.classList.add("image-food");
-    italianPasta.src = "../src/assets/pasta2.jpg";
+    italianPasta.src = italianPastaImage;
     italianPasta.alt = "Image of Italian Pasta";
     contentDiv.appendChild(italianPasta);
 
@@ -27,7 +30,7 @@ export function menu() {
     // DOM for chickenParm
     const chickenParm = document.createElement("img")
     chickenParm.classList.add("image-food");
-    chickenParm.src = "../src/assets/chicken-parm.jpg";
+    chickenParm.src = chickenParmImage;
     chickenParm.alt = "Image of Chicken Parm Dish";
     contentDiv.appendChild(chickenParm);
 
