@@ -11,8 +11,11 @@ body {
     text-align: center;
 }
 
-.image {
+
+.image-restaurant {
     margin: 25px;
+    height: 400px;
+    width: 600px;
 }
 
 .top-image {
