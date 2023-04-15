@@ -2,7 +2,7 @@
   "name": "js-restaurant-page",
   "version": "1.0.0",
   "description": "js-restaurant-page",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "dependencies": {
     "acorn": "^8.8.2",
     "acorn-import-assertions": "^1.8.0",
