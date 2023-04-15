@@ -16,7 +16,7 @@ export function initialPageLoad() {
 
     // DOM for landing page top image
     const topImage = document.createElement("img");
-    topImage.classList.add("image");
+    topImage.classList.add("image-restaurant");
     topImage.src = restaurantImage;
     topImage.alt = "Image of Restaurant";
     contentDiv.appendChild(topImage);
